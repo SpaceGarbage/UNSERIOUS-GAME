@@ -14,14 +14,14 @@ body{
 }
 body {
 /** Permet de définir un fond ainsi q'une police d'écriture **/
-background: url(https://cdn.wallpapersafari.com/38/75/NGQpWR.gif);
-color: rgb(250, 253, 247);
-font: italic small-caps bold 16px/2 cursive; 
-color: rgb(250, 253, 247);
-text-shadow: black 1px 3px 3px;
-font-family: 'Electrolize', cursive;
-background-repeat: no-repeat;
-background-size: cover;
+	background: url(https://cdn.wallpapersafari.com/38/75/NGQpWR.gif);
+	color: rgb(250, 253, 247);
+	font: italic small-caps bold 16px/2 cursive; 
+	color: rgb(250, 253, 247);
+	text-shadow: black 1px 3px 3px;
+	font-family: 'Electrolize', cursive;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /** L'image fait toujours la même hauteur **/
@@ -32,26 +32,34 @@ img{
 	height: 40vh;
 	width: auto;
   }
+
+  
+@keyframes fade-in {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
 /** Boutons **/
 .btn {
-	box-shadow:inset 33px 32px 0px -15px #474747;
-	background:linear-gradient(to bottom, #575757 5%, #ffffff 100%);
-	background-color:#575757;
-	border-radius:42px;
-	border:12px solid #241d13;
+	box-shadow: 3px 4px 0px 0px #9fb4f2;
+	background-color:#ffffff;
+	border-radius:15px;
+	border:1px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#404040;
 	font-family:Arial;
-	font-size:28px;
-	font-weight:bold;
-	padding:8px 12px;
+	font-size:17px;
+	padding:7px 25px;
 	text-decoration:none;
-	text-shadow:4px 3px 0px #3b3a3b;
+	text-shadow:0px 1px 0px #6b6b6b;
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #ffffff 5%, #575757 100%);
-	background-color:#ffffff;
+	background-color:#e1e4e6;
 }
 .btn:active {
 	position:relative;
