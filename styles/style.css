@@ -1,12 +1,38 @@
-body{
-display: flex;
-min-height: 100vh;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-background-color: #575757;
+/** Import de polices **/
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+
+
+body{	
+/** Permet de centrer les éléments dans la page **/
+ 	display: flex;
+ 	min-height: 100vh;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	background-color: #575757;
 }
+body {
+/** Permet de définir un fond ainsi q'une police d'écriture **/
+background: url(https://cdn.wallpapersafari.com/38/75/NGQpWR.gif);
+color: rgb(250, 253, 247);
+font: italic small-caps bold 16px/2 cursive; 
+color: rgb(250, 253, 247);
+text-shadow: black 1px 3px 3px;
+font-family: 'Electrolize', cursive;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/** L'image fait toujours la même hauteur **/
+img{
+	margin: 40px;
+	border: 1rem solid white; 
+	padding: 0px;
+	height: 40vh;
+	width: auto;
+  }
+/** Boutons **/
 .btn {
 	box-shadow:inset 33px 32px 0px -15px #474747;
 	background:linear-gradient(to bottom, #575757 5%, #ffffff 100%);
