@@ -14,11 +14,11 @@ body{
 }
 body {
 /** Permet de définir un fond ainsi q'une police d'écriture **/
-	background: url(https://cdn.wallpapersafari.com/38/75/NGQpWR.gif);
+	background: url(https://external-preview.redd.it/8R7fP7s-LdfeXqmwaScFMnhp9WgVVeiNEI2V3qyWIfY.gif?s=c8db76b9daa019e02d1f389882098a0bc9ec28da);
 	color: rgb(250, 253, 247);
 	font: italic small-caps bold 16px/2 cursive; 
 	color: rgb(250, 253, 247);
-	text-shadow: black 1px 3px 3px;
+	text-shadow: #809cf1 1px 3px 3px;
 	font-family: 'Electrolize', cursive;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44,12 +44,20 @@ img{
 img{
 	margin: 40px;
 	border: 1rem solid white; 
+	box-shadow: 3px 4px 0px 0px #9fb4f2;
 	padding: 0px;
 	height: 40vh;
 	width: auto;
 	animation-name: fade-in;
 	animation-duration: 2s;
   }  
+
+  a{
+	max-width: 800px;
+	line-height: 1.5;
+	animation-name: fade-in;
+	animation-duration: 2s;
+  }
 	
 	@keyframes fade-in {
 	0% {

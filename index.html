@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!--  Meta  -->
@@ -10,6 +11,7 @@
   <!--  Styles  -->
   <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <h1> Quel jour sommes nous ? </h1>
 
@@ -22,24 +24,25 @@
   <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(0)">Dimanche</a>
 
   <a href="https://github.com/SpaceGarbage" class="sg">Gaëtan Chatelain </a>
-  
+
 
   <!-- Scripts -->
   <script type="text/javascript">
-    
-    currentdate = new Date()
-    cday = currentdate.getDay();
-    console.log (cday);  
+
+    let currentdate = new Date();
+    let cday = currentdate.getDay();
+    console.log(cday);
 
     function giveanswer(day) {
       console.log(day);
       if (day === cday) {
-        document.location.href="v1.html"; 
+        document.location.href = "v1.html";
       } else {
-        document.location.href="p1.html"; 
+        document.location.href = "p1.html";
       }
     }
 
   </script>
 </body>
+
 </html>
