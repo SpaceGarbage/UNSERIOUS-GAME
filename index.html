@@ -13,13 +13,13 @@
 <body>
   <h1> Quel jour sommes nous ? </h1>
 
-  <a onclick="giveanswer(1)">Lundi</a>
-  <a onclick="giveanswer(2)">Mardi</a>
-  <a onclick="giveanswer(3)">Mercredi</a>
-  <a onclick="giveanswer(4)">Jeudi</a>
-  <a onclick="giveanswer(5)">Vendredi</a>
-  <a onclick="giveanswer(6)">Samedi</a>
-  <a onclick="giveanswer(0)">Dimanche</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(1)">Lundi</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(2)">Mardi</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(3)">Mercredi</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(4)">Jeudi</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(5)">Vendredi</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(6)">Samedi</a>
+  <a href="#" style="color:rgb(255, 255, 255);" onclick="giveanswer(0)">Dimanche</a>
 
   <a href="https://github.com/SpaceGarbage" class="sg">Gaëtan Chatelain </a>
   
@@ -28,22 +28,12 @@
   <script type="text/javascript">
     
     currentdate = new Date()
-    cday = currentdate.getDay()
-    console.log (cday)
-
-
-    let Lundi = "Lundi"
-    let Mardi = "Mardi"
-    let Mercredi = "Mercredi"
-    let Jeudi = "Jeudi"
-    let Vendredi = "Vendredi"
-    let Samedi = "Samedi"
-    let Dimanche = "Dimanche"
-    
+    cday = currentdate.getDay();
+    console.log (cday);  
 
     function giveanswer(day) {
-      console.log(day)
-      if (day == cday) {
+      console.log(day);
+      if (day === cday) {
         document.location.href="v1.html"; 
       } else {
         document.location.href="p1.html"; 
